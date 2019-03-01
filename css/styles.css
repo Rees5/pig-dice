@@ -2,23 +2,31 @@
   float: left;
 }
 #p2 {
-  float: right;
+  float: left;
+  margin-left: 5%;
 }
 #button {
   position: absolute;
   display: flex;
   margin-top: 30%;
-  margin-left: 20%
+  margin-left: 20%;
 }
 #new {
   position: absolute;
   display: flex;
   margin-top: 30%;
-  margin-left: 55%
+  margin-left: 55%;
 }
 #hold {
   position: absolute;
   display: flex;
   margin-top: 30%;
-  margin-left: 40%
+  margin-left: 40%;
+}
+#p3 {
+  margin-top: 50%;
+}
+body {
+  margin-top: 10%;
+  background-image: url("dice4.jpeg")
 }

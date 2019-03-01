@@ -26,3 +26,12 @@ button.onclick = function() {
   Player("Score: "+result)
   Player2("Score: "+result2)
 }
+function Total(pl) {
+  var showTotal=document.getElementById('score')
+  showTotal.innerHTML = pl;
+};
+var hold = document.getElementById("hold")
+hold.onClick = function() {
+  var result= result;
+  alert(Total(result))
+}
