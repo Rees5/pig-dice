@@ -47,7 +47,7 @@ on you terminal application run;
 * Tel: +254792756002
 * Email: reesalumasa@gmail.com
 * My official [Website](https://reestv.yolasite.com)
-## Copyright and Licence
+## Copyright and License
 MIT License
 
 Copyright (c) 2019 Rees Alumasa
