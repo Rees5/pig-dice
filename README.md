@@ -45,8 +45,8 @@ on you terminal application run;
 
 ## Contact Information
 * Tel: +254792756002
-* Email: reesalumasa@gmail.com
-* [Website:](https://reestv.yolasite.com)
+* My [Email](reesalumasa@gmail.com)
+* My official [Website](https://reestv.yolasite.com)
 ## Copyright and Licence
 MIT License
 
