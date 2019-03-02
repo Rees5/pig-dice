@@ -43,11 +43,11 @@ $(document).ready(function() {
   $("#endTurn").click(function(event){
     change();
     if (players[0].score >= 100){
-      var win=(players[0].name + " wins! with a score of: " + switchArray.sum());
+      var win=(players[0].name + " wins! with a score of: " + players[0].score);
       alert(win)
       document.location.reload(true)
     } else if (players[1].score >= 100) {
-      alert(players[1].name + " wins with a score of: " + switchArray.sum());
+      alert(players[1].name + " wins with a score of: " + players[1].score);
       document.location.reload(true);
   }
   });
