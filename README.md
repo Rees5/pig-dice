@@ -20,12 +20,12 @@ on you terminal application run;
 ## BDD
 | Behaviour | Action | Output Example |
 | --- | --- | --- |
-| 1.The Application allows a user to roll a dice when it is his/her turn | | |
-| 2.The application displays the user scores for each roll of dice he/she makes | | |
-| 3.The application displays the cummulative scores for each round a user plays | | |
-| 4.The application allows a user to hold a score when satisfied with  the points gained in a particular round of playing | | |
-| 5.The application alerts the user when he/she rolls on number one and gives chance for another player | | |
-| 6.The application alerts the user of a winning player if he/she attains 100 points before the alternate player| | |
+| 1.The Application allows a user to roll a dice when it is his/her turn | Click on `Start Game`:<img src="img/sam1.png"> | <img src="img/sam2.png"> |
+| 2.The application displays the user scores for each roll of dice he/she makes | Click on `Roll Dice` | <img src="img/sam3.png">  |
+| 3.The application displays the cummulative scores for each round a user plays | On click `Roll Dice` cummulative scores per click are stored | <img src="img/sam3.png">  |
+| 4.The application allows a user to hold a score when satisfied with  the points gained in a particular round of playing | click `Hold` | <img src="img/sam3.png">  |
+| 5.The application alerts the user when he/she rolls on number one and gives chance for another player | When a user rolls on 1 eg.`6-5-4-1` | <img src="img/sam4.png">  |
+| 6.The application alerts the user of a winning player if he/she attains 100 points before the alternate player| the cummulative score of player 2 i.e `Kimberly` got to `105` first  | <img src="img/win.png">  |
 
 ## Technologies Used
 
@@ -47,6 +47,7 @@ on you terminal application run;
 * Tel: +254792756002
 * Email: reesalumasa@gmail.com
 * My official [Website](https://reestv.yolasite.com)
+
 ## Copyright and License
 MIT License
 
