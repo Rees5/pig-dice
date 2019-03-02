@@ -1,32 +1,34 @@
 #p1 {
   float: left;
+  background-image: url("dice1.gif");
+  color: white;
 }
 #p2 {
-  float: left;
-  margin-left: 5%;
+  float: right;
+  background-image: url("dice1.gif");
+  color: white;
 }
 #button {
   position: absolute;
   display: flex;
-  margin-top: 30%;
+  margin-top: 5%;
   margin-left: 20%;
 }
 #new {
   position: absolute;
   display: flex;
-  margin-top: 30%;
+  margin-top: 5%;
   margin-left: 55%;
 }
 #hold {
   position: absolute;
   display: flex;
-  margin-top: 30%;
+  margin-top: 5%;
   margin-left: 40%;
 }
 #p3 {
-  margin-top: 50%;
+  margin-top: 20%;
 }
-body {
-  margin-top: 10%;
-  background-image: url("dice4.jpeg")
+button {
+  background-image: url("dice1.gif");
 }
