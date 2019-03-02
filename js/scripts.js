@@ -45,11 +45,11 @@ $(document).ready(function() {
   $("#endTurn").click(function(event){
     change();
     if (players[0].score >= 100){
-      var win=(players[0].name + " wins!!");
-      $("#win").text(win)
+      var win=(players[0].name + " wins! with a score of: " + switchArray.sum());
+      alert(win)
       document.location.reload(true)
     } else if (players[1].score >= 100) {
-      $("#win").text(players[1].name + " wins!!");
+      alert(players[1].name + " wins with a score of: " + switchArray.sum());
       document.location.reload(true);
   }
   });
@@ -65,7 +65,7 @@ $(document).ready(function() {
       if ($("#pshow1").is(":visible")) {
         switchArray = [0];
         $("#turnTotal").text(switchArray);
-        setTimeout(function() { $("#roll1").text("Oops! You rolled 1"); }, 50 );
+        setTimeout(function() {alert("Oops! You rolled 1"); }, 50 );
         $("#roll1").hide();
         setTimeout(function() {$("#pshow2").text(players[1].name + "'s turn").show();}, 100 );
         $("#pshow1").hide();
@@ -74,7 +74,7 @@ $(document).ready(function() {
       else if ($("#pshow2").is(":visible")){
         switchArray = [0];
         $("#turnTotal").text(switchArray);
-        setTimeout(function() { $("#roll1").text("Oops! You rolled 1"); }, 50 );
+        setTimeout(function() { alert("Oops! You rolled 1"); }, 50 );
         setTimeout(function() {$("#pshow1").text(players[0].name + "'s turn").show();}, 100 );
         $("#roll1").show();
         $("#pshow2").hide();
@@ -85,7 +85,6 @@ $(document).ready(function() {
   function change() {
     if ($("#pshow1").is(":visible")) {
       players[0].score = (players[0].score += switchArray.sum());
-      alert(players[0].name + ", you got " + switchArray.sum() +  " points!");
       switchArray = [0];
       $("#turnTotal").text(switchArray)
       $("#pshow1").hide();
@@ -93,7 +92,6 @@ $(document).ready(function() {
       console.log(players[0].score);
       contestShow();
     } else {
-      alert(players[1].name + ", you got " + switchArray.sum() +  " points!");
       players[1].score = (players[1].score += switchArray.sum());
       switchArray = [0];
       $("#turnTotal").text(switchArray)

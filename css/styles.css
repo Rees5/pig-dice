@@ -1,50 +1,25 @@
-#p1 {
-  float: left;
-  background-image: url("dice1.gif");
-  color: white;
-}
-#p2 {
-  float: right;
-  background-image: url("dice1.gif");
-  color: white;
-}
-#button {
-  position: absolute;
-  display: flex;
-  margin-top: 5%;
-  margin-left: 20%;
-}
-#new {
-  position: absolute;
-  display: flex;
-  margin-top: 5%;
-  margin-left: 55%;
-}
-#hold {
-  position: absolute;
-  display: flex;
-  margin-top: 5%;
-  margin-left: 40%;
-}
-#p3 {
-  margin-top: 20%;
-}
-button {
-  background-image: url("dice1.gif");
-}
 form {
   text-align: center;
+  margin-top: 30%;
 }
-
+body {
+  background-image: url("dice4.jpeg");
+}
 button {
   margin: 10px;
   align-self: center;
+}
+#r1, #r2 {
+  display: none;
 }
 .jumbotron{
   text-align: center;
 }
 .col-md-5 {
-  border: 2px solid black;
+  border: 2px solid white;
+  background-color: black;
+  color: cyan;
+  font-size: 30px;
 }
 
 .turnTotal {
@@ -64,7 +39,8 @@ button {
 text-align: center;
 }
 #turnTotal {
-    text-align: center
+    text-align: center;
+    background-image: url("dice1.gif")
 }
 
 #pshow1 {

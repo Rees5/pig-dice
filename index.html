@@ -13,19 +13,19 @@
           <div class="col-md-1"></div>
           <div class="col-md-5">
             <div class="form-group">
-              <label for="name1">Player 1 name:</label>
+              <label for="name1">Enter Player 1 name:</label>
               <input class="form-control" type="text" id="name1" placeholder="Enter your name." required></input>
             </div>
           </div>
           <div class="col-md-5">
             <div class="form-group">
-              <label for="name2">Player 2 name:</label>
+              <label for="name2">Enter Player 2 name:</label>
               <input class="form-control" type="text" id="name2" placeholder="Enter your name." required></input>
             </div>
           </div>
           <div class="col-md-1"></div>
         </div>
-        <button id="playerNameSubmit" type="submit" class="btn btn-primary">LET'S PLAY PIG DICE ! </button>
+        <button id="playerNameSubmit" type="submit" class="btn btn-primary">Start Game<br>>>></button>
       </form>
       <div class="play">
         <div class="row">
@@ -50,10 +50,10 @@
         <div class="row">
           <div class="col-md-2"></div>
           <div class="col-md-4">
-            <button type="submit" class="btn btn-success" id="roll">Roll!</button>
+            <button type="submit" class="btn btn-success" id="roll">Roll Dice</button>
           </div>
           <div class="col-md-4">
-            <button type="submit" class="btn btn-danger" id="endTurn">End Turn!</button>
+            <button type="submit" class="btn btn-danger" id="endTurn">Hold</button>
           </div>
           <div class="col-md-2"></div>
         </div>
@@ -61,11 +61,13 @@
           <h3><span id="roll"></span></h3>
         </div>
         <div class="well">
+          <span class="col-md-3" id="r1"></span>
+          <span class="col-md-3" id="r2"></span>
           <span id="roll1"></span>
           <span id="win"></span>
         </div>
-        <div id="total" class="row">
-          <h3>Turn total:</h3>
+        <div id="total" class="row well">
+          <h3>Dice Roll total:</h3>
           <h3><span id="turnTotal"></span></h3>
         </div>
  	</div>
