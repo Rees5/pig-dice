@@ -32,3 +32,50 @@
 button {
   background-image: url("dice1.gif");
 }
+form {
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+  align-self: center;
+}
+.jumbotron{
+  text-align: center;
+}
+.col-md-5 {
+  border: 2px solid black;
+}
+
+.turnTotal {
+  display: none;
+  font-size: 200%;
+}
+
+.play {
+  display: none;
+}
+#result {
+  border: 2px solid black;
+  display: none;
+  text-align: center;
+}
+#total {
+text-align: center;
+}
+#turnTotal {
+    text-align: center
+}
+
+#pshow1 {
+  display: none;
+  text-align: center;
+}
+
+#pshow2 {
+  display: none;
+  text-align: center;
+}
+.row {
+  text-align: center;
+}
