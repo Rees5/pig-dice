@@ -1,3 +1,4 @@
+//Bussiness Logic
 var players = []
 var switchArray = []
 
@@ -11,12 +12,10 @@ Array.prototype.sum = function() {
   return this.reduce(function(a,b) {return a + b});
 }
 
-// UI logic
+// User Interface logic
 $(document).ready(function() {
-  // Player name submit button
   $("form#cont").submit(function(event) {
     event.preventDefault();
-    // debugger;
     var name1 = $("#name1").val();
     var name2 = $("#name2").val();
     var player1 = new Contest(name1, 0);

@@ -1,9 +1,22 @@
+#dim {
+  margin-bottom: 10Px;
+  margin-left: 35%;
+  margin-right: 35%;
+  font-size: 50px;
+  border: solid white;
+  background-image: url("dice1.gif");
+  color: yellow;
+}
 form {
   text-align: center;
-  margin-top: 30%;
+  margin-top: 20%;
 }
 body {
   background-image: url("dice4.jpeg");
+}
+a {
+  color: white;
+  font-size: 20px;
 }
 button {
   margin: 10px;
