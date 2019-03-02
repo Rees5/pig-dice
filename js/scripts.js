@@ -40,7 +40,6 @@ $(document).ready(function() {
     }
   });
 
-// player 1
   $("#endTurn").click(function(event){
     change();
     if (players[0].score >= 100){
@@ -58,7 +57,7 @@ $(document).ready(function() {
     $("#name2").text(players[1].name);
     $("#total1").text(players[0].score);
     $("#total2").text(players[1].score);
-  }
+  };
 
   function switchP() {
       if ($("#pshow1").is(":visible")) {
@@ -79,8 +78,7 @@ $(document).ready(function() {
         $("#pshow2").hide();
         contestShow();
       }
-    }
-
+    };
   function change() {
     if ($("#pshow1").is(":visible")) {
       players[0].score = (players[0].score += switchArray.sum());
