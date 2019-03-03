@@ -35,6 +35,7 @@ $(document).ready(function() {
     if (random >= 2) {
       switchArray.push(random);
       $("#turnTotal").text(switchArray.sum());
+      $("#roller").text(random);
     } else {
       switchP();
     }
