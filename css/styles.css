@@ -2,13 +2,13 @@
 /*media query for mobile phones */
 @media screen and (max-width: 320px) {
   .row {
-    font-size: 40%;
+    font-size: 50%;
   }
 }
 /*media query for tablets*/
 @@media screen and (min-width: 321px) and (max-width: 760px) {
   .row {
-    font-size: 50%;
+    font-size: 80%;
   }
 }
 /*media query for desktops*/
