@@ -1,3 +1,23 @@
+/*Media Query: Fonts*/
+/*media query for mobile phones */
+@media screen and (max-width: 320px) {
+  .row {
+    font-size: 40%;
+  }
+}
+/*media query for tablets*/
+@@media screen and (min-width: 321px) and (max-width: 760px) {
+  .row {
+    font-size: 50%;
+  }
+}
+/*media query for desktops*/
+@media screen and (min-width: 761px) {
+  .row {
+    font-size: 100%;
+  }
+}
+/*Styles*/
 #dim {
   margin-bottom: 10Px;
   margin-left: 35%;
@@ -18,13 +38,7 @@ a {
   color: white;
   font-size: 20px;
 }
-button {
-  margin: 10px;
-  align-self: center;
-}
-#r1, #r2 {
-  display: none;
-}
+
 .jumbotron{
   text-align: center;
 }
@@ -42,6 +56,9 @@ button {
 
 .play {
   display: none;
+}
+.row {
+  text-align: center;
 }
 #result {
   border: 2px solid black;
@@ -78,7 +95,4 @@ text-align: center;
   font-size: 30px;
   margin-left: 20%;
   margin-right: 20%;
-}
-.row {
-  text-align: center;
 }
