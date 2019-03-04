@@ -101,6 +101,9 @@ body {
   margin-left: 20%;
   margin-right: 20%;
 }
+center {
+  margin-bottom: 10%;
+}
 .all {
   text-align: center;
   align-self: center;
@@ -109,7 +112,7 @@ body {
 }
 footer {
   text-align: center;
-  margin: 2%;
+  margin: 0;
   position: fixed;
   bottom: 0;
   width: 100%;
