@@ -42,7 +42,7 @@ body {
 .jumbotron{
   text-align: center;
 }
-.col-md-5 {
+#front {
   border: 4px solid silver;
   background-color: #151e2d;
   color: cyan;
