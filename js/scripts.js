@@ -24,9 +24,9 @@ $(document).ready(function() {
     contestShow();
     $("form").hide();
     $(".play").show();
+    $("#kim").text(players[0].name).show();
+    $("#kim1").text(players[1].name).show();
   });
-  $("#kim").text(players[0].name)
-  $("#kim1").text(players[1].name)
   $("#roll").click(function(event) {
     event.preventDefault();
     $("#result").show();
