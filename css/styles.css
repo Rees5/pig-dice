@@ -23,22 +23,22 @@
   margin-left: 35%;
   margin-right: 35%;
   font-size: 50px;
-  border: solid white;
-  background-image: url("dice1.gif");
-  color: yellow;
+  border: 1px solid #7905;
+  background-color: #151e2d;
+  color: white ;
 }
 form {
   text-align: center;
   margin-top: 20%;
 }
-body {
-  background-image: url("dice4.jpeg");
-}
+
 a {
   color: white;
   font-size: 20px;
 }
-
+body {
+  background-color: silver;
+}
 .jumbotron{
   text-align: center;
 }
