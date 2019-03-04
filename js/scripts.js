@@ -25,7 +25,8 @@ $(document).ready(function() {
     $("form").hide();
     $(".play").show();
   });
-
+  $("#kim").text(players[0].name)
+  $("#kim1").text(players[1].name)
   $("#roll").click(function(event) {
     event.preventDefault();
     $("#result").show();
