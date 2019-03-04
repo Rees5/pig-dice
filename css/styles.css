@@ -22,10 +22,12 @@
   margin-bottom: 10Px;
   margin-left: 35%;
   margin-right: 35%;
-  font-size: 50px;
+  font-size: 40px;
   border: 1px solid #7905;
   background-color: #151e2d;
   color: white ;
+  margin-top: 8%;
+  text-align: center;
 }
 form {
   text-align: center;
@@ -106,10 +108,11 @@ body {
   margin-right: 30%;
 }
 footer {
-  margin: 0;
+  text-align: center;
+  margin: 2%;
   position: fixed;
   bottom: 0;
   width: 100%;
-  margin-left: 25%;
-  margin-right: 10%;
+  font-size: 18px;
+  color: #212807;
 }
